@@ -12,7 +12,7 @@ class Backer
 
   def back_project(projects)
     project.each do |projects|
-      @backed_projects << projects && @backers << projects 
+      @backed_projects << projects && @backers << projects
   end
 
 end
