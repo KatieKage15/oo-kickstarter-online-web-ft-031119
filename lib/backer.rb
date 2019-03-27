@@ -5,5 +5,5 @@ class Backer
   initialize(backer)
     @backer = backer
     @backed_projects = []
-    @backers = []
   end
+end
