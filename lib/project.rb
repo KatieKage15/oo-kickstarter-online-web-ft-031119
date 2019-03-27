@@ -1,9 +1,9 @@
-class Project 
+class Project
 
   attr_reader :backers
 
   initialize(project)
-    @project = project 
+    @project = project
     @backers = []
   end
 
