@@ -5,7 +5,7 @@ class Project
   def initialize(project, name, title)
     @project = project
     @title = title
-    @name = name 
+    @name = name
     @backers = []
   end
 
