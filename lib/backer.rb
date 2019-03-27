@@ -13,6 +13,7 @@ class Backer
   def back_project(projects)
     project.each do |projects|
       @backed_projects && @backers << self
+    end
   end
 
 end
